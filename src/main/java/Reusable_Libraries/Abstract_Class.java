@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 
 public class Abstract_Class {
-    //declare all the global variables outside of the methods
+    //declare all the global variables outside the methods
     public static WebDriver driver;
     public static ExtentReports reports;
     public static ExtentTest logger;

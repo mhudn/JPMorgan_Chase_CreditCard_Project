@@ -85,12 +85,14 @@ public class creditCard extends Abstract_Class
         Thread.sleep(2000);
 
 
-        Reusable_Methods_Loggers.click(driver, "//*[@data-overlay-id='partner-benefits']", logger, " Partner benefits");
+/*        Reusable_Methods_Loggers.click(driver, "//*[@data-overlay-id='partner-benefits']", logger, " Partner benefits");
         Thread.sleep(2000);
         Reusable_Methods_Loggers.captureText(driver,"//*[@id='partner-benefits']",logger, "Partner benefits Description:      \n");
         Thread.sleep(2000);
         Reusable_Methods_Loggers.click(driver,"//*[@id='AdditionalBenefitsCloseModal']",logger, "[X] CLOSE button to close the page");
         Thread.sleep(2000);
+        //Removed from chase website!
+ */
 
 
         Reusable_Methods_Loggers.click(driver, "//*[@data-overlay-id='creditjourney']", logger, " Credit Journey");

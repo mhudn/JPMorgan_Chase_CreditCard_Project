@@ -42,7 +42,7 @@ public class Reusable_Methods_Loggers
         Runtime.getRuntime().exec(cmds)
          */
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Mohi8\\IdeaProjects\\ChaseProject\\src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\Mohi8\\IdeaProjects\\ChaseProject\\JPMorgan_Chase_CreditCard_Project\\src\\main\\resources\\chromedriver.exe");
 
         //defining ChromeOptions to enable pre-defined processes/arguments
         ChromeOptions options = new ChromeOptions();
